@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: poppins, sans-serif;
+}
+/* Style for the outer box */
+.App.outer-box {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+/* Style for the Notes section */
+.App.outer-box .notes-section {
+    margin-top: 20px;
+}
+
+/* Style for each individual note */
+.App.outer-box .note {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+/* Style for note titles */
+.App.outer-box .note h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+/* Style for note body */
+.App.outer-box .note h4 {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #666;
+}
+
+/* Style for buttons within notes */
+.App.outer-box .note button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.App.outer-box .note button:hover {
+    background-color: #45a049;
+}
+
+/* Adjust button spacing */
+.App.outer-box .note button+button {
+    margin-left: 10px;
+}
+/* Style for the container div */
+/* Style for the container of the form */
+.new-note {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+/* Style for the form */
+.new-note .form {
+    margin-top: 20px;
+}
+
+/* Style for form content sections */
+.new-note .form-content {
+    margin-bottom: 15px;
+}
+
+.new-note .form-content h4,
+.new-note .form-content h5 {
+    margin: 0;
+}
+
+.new-note .form-content span {
+    font-weight: bold;
+}
+
+.new-note input[type="text"],
+.new-note textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.new-note textarea {
+    height: 150px;
+    /* Adjust the height as needed */
+}
+
+.new-note .form-button {
+    text-align: right;
+}
+
+.new-note .form-button button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.new-note .form-button button:hover {
+    background-color: #45a049;
+}

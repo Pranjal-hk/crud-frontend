@@ -157,7 +157,7 @@ function App() {
               <h5><span>Body:</span><input onChange={updateCreateFormField} value={createForm.body} name="body"/></h5>
           </div>
           <div className="form-button">
-               <button type="submit">Create Note</button>
+               <button type="submit">Create(main) Note</button>
           </div>
         </form>
         </div>
